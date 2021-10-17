@@ -61671,14 +61671,12 @@ __d(
                   n(i[157]).productDetailsQueryKey(o.product_id, o.merchant_id),
                   o.product_data
                 ),
-                t(i[158])
-                  .getInstance(p)
-                  .logPdpEntry({
-                    product_id: o.product_id,
-                    merchant_id: o.merchant_id,
-                    prior_module: s,
-                    prior_submodule: c,
-                  }),
+                t(i[158]).getInstance(p).logPdpEntry({
+                  product_id: o.product_id,
+                  merchant_id: o.merchant_id,
+                  prior_module: s,
+                  prior_submodule: c,
+                }),
                 d !== e.location.pathname)
               ) {
                 var f;
